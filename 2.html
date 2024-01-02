@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Uncertainity Challenge</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .main-title {
+            text-align: center;
+            font-size: 50px;
+            margin-bottom: 50px;
+            color: chocolate;
+        }
+        .sub-heading {
+            text-align: center;
+            font-size: 18px;
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+        .content {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .image {
+            flex: 0 0 calc(100% - 10px);
+        }
+        .links {
+            flex: 0 0 calc(100% - 10px);
+            margin-top: 20px;
+            padding-left: 20px;
+        }
+        .links ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+        .links a {
+            text-decoration: none;
+            color: #390306;
+            font-weight: bold;
+            display: block;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+            border-top: 1px solid #ccc; /* Add a line at the top of the footer */
+        }
+        .image {
+    text-align: center;
+        }
+    .centered-image {
+    display: block;
+    margin: 0 auto;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="main-title">Uncertainity Challenge</div>
+
+    <div class="content">
+        <div class="image">
+            <!-- Insert your images here -->
+            <img src="upf-logo.png">
+            <img src="sycai.png">
+           
+        </div>
+        
+        <div class="links">
+           <!-- <p>Links:</p>-->
+            <ul>
+                <li><a href="1.html" id="1.html">Home</a></li>
+                <li><a href="2.html" id="2.html">Dataset</a></li>
+                <li><a href="3.html" id="3.html">Task and Rules</a></li>
+                <li><a href="4.html" id="4.html">Eval and Ranking</a></li>
+                <li><a href="5.html" id="5.html">Prize</a></li>
+                <li><a href="6_1.html" id="6.html">Challenge</a></li>
+                <li><a href="7.html" id="7.html">Team</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="sub-heading">Dataset</div>
+    <!-- <p>Dataset:</p>-->
+    <div>
+        <!-- Paragraphs about the Porsche 911 (992) GT3 -->
+        <p>Our dataset, comprising data from 82 patients, was gathered at the Department of
+            Radiology at the University Hospital Erlangen. In compliance with the publication of CT
+            images, we secured both study-specific and a broad consent from each patient. The inclusion criteria for patients stipulated the presence of as few lesions/cysts as possible. 
+            However, upon further evaluation, we observed that most patients exhibited at least one cyst, with kidney cysts being prevalent. Striving for a representative portrayal of typical clinical practice, we retained a subset of patients with cysts and lesions (15).</p>
+        <p>We started with 100 patient images. Of these, we removed one patient who only had thick images. Furthermore, eight patients were removed who had huge cysts or tumors, and three because of an incompletely imaged abdomen. Finally, one native image was deleted, and two after a kidney transplant. Two CT images had an error in image bit depth. One CT image could not be found. 
+            These inclusion and exclusion criteria left 82 CT images. </p>
+        <!-- <p>The 911 GT3 boasts a range of aerodynamic enhancements that maximize downforce and grip at high speeds...</p>
+        <p>Inside the GT3, the focus is on the driver. The cabin is designed for a purposeful and immersive driving experience...</p>-->
+    </div>
+
+    <div class="image">
+        <!-- Insert your images here -->
+        <img src="1.jfif">
+        <img src="2.jfif">
+        <img src="3.jfif">
+        <img src="3.jfif">
+    </div>
+
+    <div>
+        <!-- Paragraphs about the Porsche 911 (992) GT3 -->
+        <p>The segmentations were first done by Joy-Marie Kleiß and then reviewed by radiologists
+            with an experience of 2 and 4 years in abdominal CT imaging.
+            We used the following SIEMENS CT-scanners:
+            Slice thickness ranged from 0.7 and 1mm.</p>
+        <!--<p>Under the rear decklid of the 911 GT3 lies a naturally aspirated 4.0-liter flat-six engine that produces an exhilarating 502 horsepower...</p>-->
+        
+    </div>
+    <div class="sub-heading">Dataset Summary</div>
+
+    <div class="image">
+        <!-- Insert your images here -->
+        <img src="dataset.PNG">
+        <img src="dataset2.PNG" class="centered-image">
+       
+    </div>
+    <!-- Footer with a line and copyright symbol -->
+    <div class="footer">
+        
+        &copy; Uncertainity Challenge 2024 <!-- Copyright symbol and year -->
+    </div>
+</body>
+</html>

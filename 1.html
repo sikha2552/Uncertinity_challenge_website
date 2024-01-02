@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Uncertainity Challenge</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .main-title {
+            text-align: center;
+            font-size: 50px;
+            margin-bottom: 50px;
+            color: chocolate;
+        }
+        .sub-heading {
+            text-align: center;
+            font-size: 18px;
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+        .content {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .image {
+            flex: 0 0 calc(100% - 10px);
+        }
+        .links {
+            flex: 0 0 calc(100% - 10px);
+            margin-top: 20px;
+            padding-left: 20px;
+        }
+        .links ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+        .links a {
+            text-decoration: none;
+            color: #390306;
+            font-weight: bold;
+            display: block;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+            border-top: 1px solid #ccc; /* Add a line at the top of the footer */
+        }
+    </style>
+</head>
+<body>
+    <div class="main-title">Uncertainity Challenge</div>
+
+    <div class="content">
+        <div class="image">
+            <!-- Insert your images here -->
+            <img src="upf-logo.png">
+            <img src="sycai.png">
+           <!-- <img src="3.jfif">
+            <img src="3.jfif">-->
+        </div>
+        
+        <div class="links">
+           <!--  <p class="bold-text">Links:</p>-->
+            <ul>
+                <li><a href="1.html" id="1.html">Home</a></li>
+                <li><a href="2.html" id="2.html">Dataset</a></li>
+                <li><a href="3.html" id="3.html">Task and Rules</a></li>
+                <li><a href="4.html" id="4.html">Eval and Ranking</a></li>
+                <li><a href="5.html" id="5.html">Prize</a></li>
+                <li><a href="6_1.html" id="6.html">Challenge</a></li>
+                <li><a href="7.html" id="7.html">Team</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="sub-heading">Motivation</div>
+
+    <div>
+        <!-- Paragraphs about the Porsche 911 (992) GT3 -->
+        <p>Uncertainty and interrater variability pose significant challenges in the field of Deep Learning
+            (DL) for medical image segmentation, and their relationship is closely intertwined.In medical
+            imaging, DL models are often tasked with delineating structures or abnormalities within
+            complex anatomical structures, such as tumors, blood vessels, or organs....</p>
+        <p>We will be studying three structures: liver, kidney, and pancreas. These three structures were
+            chosen since they are complementary: liver, as a big organ containing ambiguous anatomical
+            structures, such as blood vessels; kidney, a little bit harder to segment than the liver and a
+            little bit more irregular; pancreas, the hardest of the three being the most heterogeneous and
+            irregular. Furthermore, it is important to highlight that the different labels that will be used for
+            the challenges are obtained from three different experts following a defined clinical guideline,
+            so they can be comparable. They have been supervised to be sure that there are no
+            discrepancies in how the organs must be segmented.</p>
+        <!--<p>Inside the GT3, the focus is on the driver. The cabin is designed for a purposeful and immersive driving experience...</p>-->
+    </div>
+
+    <!-- Footer with a line and copyright symbol -->
+    <div class="footer">
+        
+        &copy; Uncertainity Challenge 2024 <!-- Copyright symbol and year -->
+    </div>
+</body>
+</html>
